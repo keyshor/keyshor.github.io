@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Kishor</title>
+    <link>https://keyshor.github.io/publication/</link>
+      <atom:link href="https://keyshor.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://keyshor.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://keyshor.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>A Framework for Transforming Specifications in Reinforcement Learning</title>
+      <link>https://keyshor.github.io/publication/alur-framework-2021/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/alur-framework-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specification-Guided Learning of Nash Equilibria with High Social Welfare</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-specification-guided-2022/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-specification-guided-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compositional Reinforcement Learning from Logical Specifications</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-compositional-2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-compositional-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compositional Learning and Verification of Neural Network Controllers</title>
+      <link>https://keyshor.github.io/publication/ivanov-compositional-2021/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/ivanov-compositional-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abstract Value Iteration for Hierarchical Reinforcement Learning</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-abstract-2021/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-abstract-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Space-efficient Query Evaluation over Probabilistic Event Streams</title>
+      <link>https://keyshor.github.io/publication/alur-space-efficient-2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/alur-space-efficient-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Composable Specification Language for Reinforcement Learning Tasks</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-composable-2019/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-composable-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

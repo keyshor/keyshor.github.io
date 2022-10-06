@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preprints | Kishor</title>
+    <link>https://keyshor.github.io/preprints/</link>
+      <atom:link href="https://keyshor.github.io/preprints/index.xml" rel="self" type="application/rss+xml" />
+    <description>Preprints</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://keyshor.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Preprints</title>
+      <link>https://keyshor.github.io/preprints/</link>
+    </image>
+    
+    <item>
+      <title>Robust Option Learning for Compositional Generalization</title>
+      <link>https://keyshor.github.io/preprints/rosac/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/preprints/rosac/</guid>
+      <description>&lt;p&gt;Compositional reinforcement learning is a promising approach for training policies to perform complex long-horizon tasks. Typically, a high-level task is decomposed into a sequence of subtasks and a separate policy is trained to perform each subtask. In this paper, we focus on the problem of training subtask policies in a way that they can be used to perform any task; here, a task is given by a sequence of subtasks. We aim to maximize the worst-case performance over all tasks as opposed to the average-case performance. We formulate the problem as a two agent zero-sum game in which the adversary picks the sequence of subtasks. We propose two RL algorithms to solve this game: one is an adaptation of existing multi-agent RL algorithms to our setting and the other is an asynchronous version which enables parallel training of subtask policies. We evaluate our approach on two multi-task environments with continuous states and actions and demonstrate that our algorithms outperform state-of-the-art baselines.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Algorithms for Regenerative Stopping Problems with Applications to Shipping Consolidation in Logistics</title>
+      <link>https://keyshor.github.io/preprints/bell-labs/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/preprints/bell-labs/</guid>
+      <description>&lt;p&gt;We study regenerative stopping problems in which the system starts anew whenever the
+controller decides to stop and the long-term average cost is to be minimized. Traditional model-based solutions involve estimating the underlying process from data and computing strategies for
+the estimated model. In this paper, we compare such solutions to deep reinforcement learning
+and imitation learning which involve learning a neural network policy from simulations. We
+evaluate the different approaches on a real-world problem of shipping consolidation in logistics
+and demonstrate that deep learning can be effectively used to solve such problems.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
