@@ -53,8 +53,8 @@
       <link>https://keyshor.github.io/preprints/rosac/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://keyshor.github.io/preprints/rosac/</guid>
-      <description>&lt;p&gt;##Abstract
-Compositional reinforcement learning is a promising approach for training policies to perform complex long-horizon tasks. Typically, a high-level task is decomposed into a sequence of subtasks and a separate policy is trained to perform each subtask. In this paper, we focus on the problem of training subtask policies in a way that they can be used to perform any task; here, a task is given by a sequence of subtasks. We aim to maximize the worst-case performance over all tasks as opposed to the average-case performance. We formulate the problem as a two agent zero-sum game in which the adversary picks the sequence of subtasks. We propose two RL algorithms to solve this game: one is an adaptation of existing multi-agent RL algorithms to our setting and the other is an asynchronous version which enables parallel training of subtask policies. We evaluate our approach on two multi-task environments with continuous states and actions and demonstrate that our algorithms outperform state-of-the-art baselines.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Compositional reinforcement learning is a promising approach for training policies to perform complex long-horizon tasks. Typically, a high-level task is decomposed into a sequence of subtasks and a separate policy is trained to perform each subtask. In this paper, we focus on the problem of training subtask policies in a way that they can be used to perform any task; here, a task is given by a sequence of subtasks. We aim to maximize the worst-case performance over all tasks as opposed to the average-case performance. We formulate the problem as a two agent zero-sum game in which the adversary picks the sequence of subtasks. We propose two RL algorithms to solve this game: one is an adaptation of existing multi-agent RL algorithms to our setting and the other is an asynchronous version which enables parallel training of subtask policies. We evaluate our approach on two multi-task environments with continuous states and actions and demonstrate that our algorithms outperform state-of-the-art baselines.&lt;/p&gt;
 </description>
     </item>
     
@@ -167,8 +167,8 @@ Compositional reinforcement learning is a promising approach for training polici
       <link>https://keyshor.github.io/preprints/bell-labs/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://keyshor.github.io/preprints/bell-labs/</guid>
-      <description>&lt;p&gt;##Abstract
-We study regenerative stopping problems in which the system starts anew whenever the
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We study regenerative stopping problems in which the system starts anew whenever the
 controller decides to stop and the long-term average cost is to be minimized. Traditional model-based solutions involve estimating the underlying process from data and computing strategies for
 the estimated model. In this paper, we compare such solutions to deep reinforcement learning
 and imitation learning which involve learning a neural network policy from simulations. We
@@ -297,7 +297,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-156382479&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-896254317&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -307,7 +307,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-156382479&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-896254317&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
