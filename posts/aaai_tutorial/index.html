@@ -59,6 +59,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -175,9 +178,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -268,12 +271,12 @@
 
   
 
-<meta name="description" content="We study the problem of learning control policies for complex tasks given by logical specifications. Recent approaches automatically generate a reward function from a given specification and use a suitable reinforcement learning algorithm to learn a policy that maximizes the expected reward. These approaches, however, scale poorly to complex tasks that require high-level planning. In this work, we develop a compositional learning approach, called DIRL, that interleaves high-level planning and reinforcement learning. First, DIRL encodes the specification as an abstract graph; intuitively, vertices and edges of the graph correspond to regions of the state space and simpler sub-tasks, respectively. Our approach then incorporates reinforcement learning to learn neural network policies for each edge (sub-task) within a Dijkstra-style planning algorithm to compute a high-level plan in the graph. An evaluation of the proposed approach on a set of challenging control benchmarks with continuous state and action spaces demonstrates that it outperforms state-of-the-art baselines." />
+<meta name="description" content="This post serves as the course website for the AAAI 23 tutorial on Specification-Guided Reinforcement Learning. We outline the tutorial and provide reading material that serves as an introduction to the growing body of research on this topic." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://keyshor.github.io/publication/jothimurugan-compositional-2021/" />
-<link rel="canonical" href="https://keyshor.github.io/publication/jothimurugan-compositional-2021/" />
+<link rel="alternate" hreflang="en-us" href="https://keyshor.github.io/posts/aaai_tutorial/" />
+<link rel="canonical" href="https://keyshor.github.io/posts/aaai_tutorial/" />
 
 
 
@@ -309,18 +312,18 @@
   <meta property="twitter:creator" content="@KeysShore" />
 <meta property="twitter:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Kishor" />
-<meta property="og:url" content="https://keyshor.github.io/publication/jothimurugan-compositional-2021/" />
-<meta property="og:title" content="Compositional Reinforcement Learning from Logical Specifications | Kishor" />
-<meta property="og:description" content="We study the problem of learning control policies for complex tasks given by logical specifications. Recent approaches automatically generate a reward function from a given specification and use a suitable reinforcement learning algorithm to learn a policy that maximizes the expected reward. These approaches, however, scale poorly to complex tasks that require high-level planning. In this work, we develop a compositional learning approach, called DIRL, that interleaves high-level planning and reinforcement learning. First, DIRL encodes the specification as an abstract graph; intuitively, vertices and edges of the graph correspond to regions of the state space and simpler sub-tasks, respectively. Our approach then incorporates reinforcement learning to learn neural network policies for each edge (sub-task) within a Dijkstra-style planning algorithm to compute a high-level plan in the graph. An evaluation of the proposed approach on a set of challenging control benchmarks with continuous state and action spaces demonstrates that it outperforms state-of-the-art baselines." /><meta property="og:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://keyshor.github.io/posts/aaai_tutorial/" />
+<meta property="og:title" content="Tutorial on Specification-Guided Reinforcement Learning | Kishor" />
+<meta property="og:description" content="This post serves as the course website for the AAAI 23 tutorial on Specification-Guided Reinforcement Learning. We outline the tutorial and provide reading material that serves as an introduction to the growing body of research on this topic." /><meta property="og:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2022-10-06T00:58:43&#43;00:00"
+      content="2022-12-24T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2022-10-05T20:58:44-04:00">
+    <meta property="article:modified_time" content="2022-12-24T00:00:00&#43;00:00">
   
 
 
@@ -328,47 +331,6 @@
 
 
 
-    
-
-
-
-
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://keyshor.github.io/publication/jothimurugan-compositional-2021/"
-  },
-  "headline": "Compositional Reinforcement Learning from Logical Specifications",
-  
-  "datePublished": "2022-10-06T00:58:43Z",
-  "dateModified": "2022-10-05T20:58:44-04:00",
-  
-  "author": {
-    "@type": "Person",
-    "name": "Kishor Jothimurugan"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Kishor",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_192x192_fill_lanczos_center_3.png"
-    }
-  },
-  "description": "We study the problem of learning control policies for complex tasks given by logical specifications. Recent approaches automatically generate a reward function from a given specification and use a suitable reinforcement learning algorithm to learn a policy that maximizes the expected reward. These approaches, however, scale poorly to complex tasks that require high-level planning. In this work, we develop a compositional learning approach, called DIRL, that interleaves high-level planning and reinforcement learning. First, DIRL encodes the specification as an abstract graph; intuitively, vertices and edges of the graph correspond to regions of the state space and simpler sub-tasks, respectively. Our approach then incorporates reinforcement learning to learn neural network policies for each edge (sub-task) within a Dijkstra-style planning algorithm to compute a high-level plan in the graph. An evaluation of the proposed approach on a set of challenging control benchmarks with continuous state and action spaces demonstrates that it outperforms state-of-the-art baselines."
-}
-</script>
-
-  
 
   
 
@@ -386,7 +348,7 @@
 
 
   
-  <title>Compositional Reinforcement Learning from Logical Specifications | Kishor</title>
+  <title>Tutorial on Specification-Guided Reinforcement Learning | Kishor</title>
 
   
   
@@ -406,7 +368,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="707a6d65e86464265dd7f8bad29ea931" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="096328423e251a8743757f7838ef454f" >
 
   
   
@@ -678,7 +640,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/posts"><span>Posts</span></a>
+            <a class="nav-link  active" href="/posts"><span>Posts</span></a>
           </li>
 
           
@@ -817,16 +779,7 @@
     
     
 
-    
-
-
-
-
-
-
-
-
-<div class="pub">
+    <article class="article">
 
   
 
@@ -848,7 +801,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Compositional Reinforcement Learning from Logical Specifications</h1>
+  <h1>Tutorial on Specification-Guided Reinforcement Learning</h1>
 
   
 
@@ -860,19 +813,6 @@
 
   
   
-  
-  
-  <div>
-    
-
-  <span class="author-highlighted">
-      Kishor Jothimurugan</span>, <span >
-      Suguman Bansal</span>, <span >
-      Osbert Bastani</span>, <span >
-      Rajeev Alur</span>
-  </div>
-  
-  
 
   
   <span class="article-date">
@@ -880,7 +820,7 @@
     
       
     
-    December, 2021
+    Dec 24, 2022
   </span>
   
 
@@ -903,86 +843,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/jothimurugan-compositional-2021/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2106.13906.pdf" target="_blank" rel="noopener">
-    PDF</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2106.13906" target="_blank" rel="noopener">
-    ArXiv</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://github.com/keyshor/dirl" target="_blank" rel="noopener">
-    Code</a>
-
-
-</div>
-
 
   
 </div>
@@ -991,47 +851,19 @@
 
   <div class="article-container">
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract">We study the problem of learning control policies for complex tasks given by logical specifications. Recent approaches automatically generate a reward function from a given specification and use a suitable reinforcement learning algorithm to learn a policy that maximizes the expected reward. These approaches, however, scale poorly to complex tasks that require high-level planning. In this work, we develop a compositional learning approach, called DIRL, that interleaves high-level planning and reinforcement learning. First, DIRL encodes the specification as an abstract graph; intuitively, vertices and edges of the graph correspond to regions of the state space and simpler sub-tasks, respectively. Our approach then incorporates reinforcement learning to learn neural network policies for each edge (sub-task) within a Dijkstra-style planning algorithm to compute a high-level plan in the graph. An evaluation of the proposed approach on a set of challenging control benchmarks with continuous state and action spaces demonstrates that it outperforms state-of-the-art baselines.</p>
-    
+    <div class="article-style">
+      <p>This post serves as the course website for the AAAI 23 tutorial on <em>Specification-Guided Reinforcement Learning</em>. We outline the tutorial and provide reading material that serves as an introduction to the growing body of research on this topic.</p>
+<h1 id="introduction">Introduction</h1>
+<p>Reinforcement Learning (RL) has recently been applied to solve challenging robotics control problems, including multi-agent control, object manipulation, and control from perception. The ability to train a controller without having access to an explicit model of the underlying system makes RL a practical choice for such applications. Recent research has primarily focused on scaling RL to high-dimensional control systems with complex dynamics such as the F
 
-    
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
+$1/10^{\text{th}}$ car, robotic arms and hot-air balloons. In most of these applications, the tasks considered are relatively simple&mdash;e.g., reachability and safety. Most RL algorithms, however, do not scale well to complex long-horizon tasks such as navigating a car through a series of turns or controlling a robotic arm to pick and place multiple objects. This is due to a number of drawbacks of existing approaches.</p>
+<p>One key shortcoming is that the user must manually encode the task using a real-valued reward function, which can be challenging for several reasons. First, for complex tasks with multiple objectives and constraints, the user must manually devise a single reward function that balances different parts of the task. Second, the state space must often be extended to encode the reward&mdash;e.g., adding indicators that keep track of which subtasks have been completed. Third, oftentimes, different reward functions can encode the same task, and the choice of reward function can have a large impact on the convergence of the RL algorithm. Poor reward functions can make it hard for the RL algorithm to achieve the objective; e.g., it can result in reward hacking, where the agent learns to optimize rewards without achieving the objective.</p>
+<p>This has motivated a lot of recent research on developing RL algorithms for learning policies from
+logical specifications. In this tutorial, we start with an introduction to RL and some common specification languages
+used to specify robotics tasks. Then, we present state-of-the-art algorithms for RL from specifications that have been
+demonstrated to enable learning policies for complex tasks. Finally, we discuss the theoretical aspects of RL from specifications including convergence, PAC learnability and correctness.</p>
+
     </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Advances in Neural Information Processing Systems (NeurIPS)</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
 
     
 
@@ -1056,7 +888,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F&amp;text=Compositional&#43;Reinforcement&#43;Learning&#43;from&#43;Logical&#43;Specifications" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F&amp;text=Tutorial&#43;on&#43;Specification-Guided&#43;Reinforcement&#43;Learning" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1073,7 +905,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F&amp;t=Compositional&#43;Reinforcement&#43;Learning&#43;from&#43;Logical&#43;Specifications" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F&amp;t=Tutorial&#43;on&#43;Specification-Guided&#43;Reinforcement&#43;Learning" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1092,7 +924,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Compositional%20Reinforcement%20Learning%20from%20Logical%20Specifications&amp;body=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Tutorial%20on%20Specification-Guided%20Reinforcement%20Learning&amp;body=https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1109,7 +941,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F&amp;title=Compositional&#43;Reinforcement&#43;Learning&#43;from&#43;Logical&#43;Specifications" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F&amp;title=Tutorial&#43;on&#43;Specification-Guided&#43;Reinforcement&#43;Learning" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1126,7 +958,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Compositional&#43;Reinforcement&#43;Learning&#43;from&#43;Logical&#43;Specifications%20https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Tutorial&#43;on&#43;Specification-Guided&#43;Reinforcement&#43;Learning%20https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1143,7 +975,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Fjothimurugan-compositional-2021%2F&amp;title=Compositional&#43;Reinforcement&#43;Learning&#43;from&#43;Logical&#43;Specifications" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fkeyshor.github.io%2Fposts%2Faaai_tutorial%2F&amp;title=Tutorial&#43;on&#43;Specification-Guided&#43;Reinforcement&#43;Learning" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1163,7 +995,6 @@
 
   
   
-    
 
 
 
@@ -1277,25 +1108,6 @@
   </div>
 
 
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
 
 
 
@@ -1313,7 +1125,7 @@
 
 
   </div>
-</div>
+</article>
   </div>
 
   <div class="page-footer">
