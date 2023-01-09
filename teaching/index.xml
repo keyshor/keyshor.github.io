@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching | Kishor</title>
+    <link>https://keyshor.github.io/teaching/</link>
+      <atom:link href="https://keyshor.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>Teaching</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png</url>
+      <title>Teaching</title>
+      <link>https://keyshor.github.io/teaching/</link>
+    </image>
+    
+    <item>
+      <title>AAAI Tutorial on Specification-Guided Reinforcement Learning</title>
+      <link>https://keyshor.github.io/teaching/aaai_tutorial/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/teaching/aaai_tutorial/</guid>
+      <description>&lt;p&gt;The unprecedented proliferation of data-driven approaches, especially machine learning, has put the spotlight on building trustworthy AI through the combination of logical reasoning and machine learning. &lt;em&gt;Reinforcement Learning from Logical Specifications&lt;/em&gt; is one such topic where formal logical constructs are utilized to overcome challenges faced by modern RL algorithms. Research on this topic is scattered across venues targeting subareas of AI. Foundational work has appeared at formal methods and AI venues. Algorithmic development and applications have appeared at machine learning, robotics, and cyber-physical systems venues. This tutorial consolidates recent progress in one capsule for a typical AI researcher. The tutorial is designed to explain the importance of using formal specifications in RL and encourage researchers to apply existing techniques for RL from logical specifications as well as contribute to the growing body of work on this topic.&lt;/p&gt;
+&lt;p&gt;In this tutorial, we introduce reinforcement learning as a tool for automated synthesis of control policies and discuss the challenge of encoding long-horizon tasks using rewards. We then formulate the problem of reinforcement learning from logical specifications and present recent progress in developing scalable algorithms as well as theoretical results demonstrating the hardness of learning in this context.&lt;/p&gt;
+&lt;p&gt;The syllabus of this tutorial can be found in the &lt;a href=&#34;proposal.pdf&#34;&gt;AAAI proposal&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;presenters&#34;&gt;Presenters&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cis.upenn.edu/~alur/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rajeev Alur&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://suguman.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Suguman Bansal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obastani.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Osbert Bastani&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://keyshor.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kishor Jothimurugan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reading-material&#34;&gt;Reading Material&lt;/h3&gt;
+&lt;p&gt;The tutorial is organized into three modules. Reading material corresponding to these modules as well as additional resources are provided below.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;. We introduce reinforcement learning and motivation behind the use of logical specifications. We discuss two specification languages: &lt;em&gt;LTL&lt;/em&gt; and &lt;em&gt;SpectRL&lt;/em&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First three sections of the &lt;a href=&#34;https://arxiv.org/pdf/2111.00272.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; on specifications in reinforcement learning&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cmi.ac.in/~madhavan/papers/pdf/isical97.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Notes&lt;/a&gt; on Linear Temporal Logic (LTL)&lt;/li&gt;
+&lt;li&gt;First two sections of the &lt;a href=&#34;https://arxiv.org/pdf/2008.09293.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; on SpectRL
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Practical Algorithms&lt;/strong&gt;. We discuss two learning algorithms: one for LTL specs that is based on reward machines and a compositional algorithm for SpectRL specifications.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/2010.03950.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on reward machines&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ijcai.org/proceedings/2019/0840.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on generating reward machines from LTL specs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/2106.13906.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on a compositional RL algorithm for SpectRL specs
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Theoretical Results&lt;/strong&gt;. We discuss hardness results regarding learning from logical specifications as well as a reward generation procedure for LTL specifications that has a weak optimality preservation guarantee.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sections 4, 5 and 6 of the &lt;a href=&#34;https://arxiv.org/pdf/2111.00272.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; on specifications in reinforcement learning&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1810.00950.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on faithful reward generation from LTL specs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1909.05081.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on good-for-MDP automata
+&lt;/br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Additional Resources&lt;/strong&gt;. Though not presented in the tutorial, the following material is provided for those interested in exploring further.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/2111.12679.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; characterizing the exact class of LTL specs for which PAC learning is possible&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1909.07299.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; providing an alternate approach for generating optimality preserving rewards from LTL specs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/2206.03348.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt; on multi-agent reinforcement learning from SpectRL specifications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
