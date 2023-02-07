@@ -35,7 +35,7 @@
     <item>
       <title>AAAI Tutorial on Specification-Guided Reinforcement Learning</title>
       <link>https://keyshor.github.io/teaching/aaai_tutorial/</link>
-      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://keyshor.github.io/teaching/aaai_tutorial/</guid>
       <description>&lt;p&gt;The unprecedented proliferation of data-driven approaches, especially machine learning, has put the spotlight on building trustworthy AI through the combination of logical reasoning and machine learning. &lt;em&gt;Reinforcement Learning from Logical Specifications&lt;/em&gt; is one such topic where formal logical constructs are utilized to overcome challenges faced by modern RL algorithms. Research on this topic is scattered across venues targeting subareas of AI. Foundational work has appeared at formal methods and AI venues. Algorithmic development and applications have appeared at machine learning, robotics, and cyber-physical systems venues. This tutorial consolidates recent progress in one capsule for a typical AI researcher. The tutorial is designed to explain the importance of using formal specifications in RL and encourage researchers to apply existing techniques for RL from logical specifications as well as contribute to the growing body of work on this topic.&lt;/p&gt;
 &lt;p&gt;In this tutorial, we introduce reinforcement learning as a tool for automated synthesis of control policies and discuss the challenge of encoding long-horizon tasks using rewards. We then formulate the problem of reinforcement learning from logical specifications and present recent progress in developing scalable algorithms as well as theoretical results demonstrating the hardness of learning in this context.&lt;/p&gt;
@@ -183,7 +183,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-754321968&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-458329167&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -193,7 +193,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-754321968&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-458329167&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
