@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>options | Kishor</title>
+    <link>https://keyshor.github.io/tag/options/</link>
+      <atom:link href="https://keyshor.github.io/tag/options/index.xml" rel="self" type="application/rss+xml" />
+    <description>options</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png</url>
+      <title>options</title>
+      <link>https://keyshor.github.io/tag/options/</link>
+    </image>
+    
+    <item>
+      <title>Robust Subtask Leaning for Compositional Generalization</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-robust-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-robust-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

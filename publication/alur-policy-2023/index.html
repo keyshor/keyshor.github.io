@@ -268,12 +268,12 @@
 
   
 
-<meta name="description" content="Doctoral Candidate" />
+<meta name="description" content="The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://keyshor.github.io/tag/verification/" />
-<link rel="canonical" href="https://keyshor.github.io/tag/verification/" />
+<link rel="alternate" hreflang="en-us" href="https://keyshor.github.io/publication/alur-policy-2023/" />
+<link rel="canonical" href="https://keyshor.github.io/publication/alur-policy-2023/" />
 
 
 
@@ -309,37 +309,84 @@
   <meta property="twitter:creator" content="@KeysShore" />
 <meta property="twitter:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Kishor" />
-<meta property="og:url" content="https://keyshor.github.io/tag/verification/" />
-<meta property="og:title" content="verification | Kishor" />
-<meta property="og:description" content="Doctoral Candidate" /><meta property="og:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://keyshor.github.io/publication/alur-policy-2023/" />
+<meta property="og:title" content="Policy Synthesis and Reinforcement Learning for Discounted LTL | Kishor" />
+<meta property="og:description" content="The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical." /><meta property="og:image" content="https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2021-08-01T00:00:00&#43;00:00" />
-  
-
-
-
-
-
-
-
-
-
-
+    <meta
+      property="article:published_time"
+      content="2023-05-15T00:58:44&#43;00:00"
+    />
   
   
-  
-
-  
-  
-    <link rel="alternate" href="/tag/verification/index.xml" type="application/rss+xml" title="Kishor" />
-  
-
+    <meta property="article:modified_time" content="2023-05-15T20:58:44-04:00">
   
 
 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://keyshor.github.io/publication/alur-policy-2023/"
+  },
+  "headline": "Policy Synthesis and Reinforcement Learning for Discounted LTL",
   
-  <title>verification | Kishor</title>
+  "datePublished": "2023-05-15T00:58:44Z",
+  "dateModified": "2023-05-15T20:58:44-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rajeev Alur"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kishor",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Policy Synthesis and Reinforcement Learning for Discounted LTL | Kishor</title>
 
   
   
@@ -359,7 +406,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="66cfc4fad6877bf64fcac30e1e20d9e9" >
 
   
   
@@ -786,6 +833,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -796,82 +854,67 @@
   
   
   
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>verification</h1>
+<div class="article-container pt-3">
+  <h1>Policy Synthesis and Reinforcement Learning for Discounted LTL</h1>
 
   
 
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-
-  
-
-  
   
     
 
 
-
-
-
-
+<div class="article-metadata">
 
   
-
-
-
-
-
-
-
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/ivanov-compositional-2021/" >Compositional Learning and Verification of Neural Network Controllers</a>
-    </div>
-
+  
+  
+  <div>
     
-    <a href="/publication/ivanov-compositional-2021/"  class="summary-link">
-      <div class="article-style">
-        Recent advances in deep learning have enabled data-driven controller design for autonomous systems. However, verifying safety of such …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
-      Radoslav Ivanov</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span class="author-highlighted">
-      Kishor Jothimurugan</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Steve Hsu</span>, <span >
-      Shaan Vaidya</span>, <span >
       Rajeev Alur</span>, <span >
-      Osbert Bastani</span>
-      </div>
+      Osbert Bastani</span>, <span class="author-highlighted">
+      Kishor Jothimurugan</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Alphabetical Order"></i>, <span >
+      Mateo Perez</span>, <span >
+      Fabio Somenzi</span>, <span >
+      Ashutosh Trivedi</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
       
-    </div>
+    
+    May, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
 
     
-    <div class="btn-links">
-      
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
 
 
 
@@ -886,8 +929,8 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/ivanov-compositional-2021/cite.bib">
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/alur-policy-2023/cite.bib">
   Cite
 </a>
 
@@ -914,11 +957,8 @@
   
   
     
-    
-      
-    
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/papers/emsoft21.pdf" >
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2305.17115.pdf" target="_blank" rel="noopener">
     PDF</a>
 
   
@@ -932,40 +972,354 @@
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/keyshor/autonomous_car_verification" target="_blank" rel="noopener">
-    Code</a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1vDhPv-EGJ1izmKX516jVLIRiw5BUmNH_/view?usp=sharing" target="_blank" rel="noopener">
-    Slides</a>
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2305.17115" target="_blank" rel="noopener">
+    ArXiv</a>
 
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
+
   
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The difficulty of manually specifying reward functions has led to an interest in using linear temporal logic (LTL) to express objectives for reinforcement learning (RL). However, LTL has the downside that it is sensitive to small perturbations in the transition probabilities, which prevents probably approximately correct (PAC) learning without additional assumptions. Time discounting provides a way of removing this sensitivity, while retaining the high expressivity of the logic. We study the use of discounted LTL for policy synthesis in Markov decision processes with unknown transition probabilities, and show how to reduce discounted LTL to discounted-sum reward via a reward machine when all discount factors are identical.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>International Conference on Computer Aided Verification (CAV)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F&amp;text=Policy&#43;Synthesis&#43;and&#43;Reinforcement&#43;Learning&#43;for&#43;Discounted&#43;LTL" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F&amp;t=Policy&#43;Synthesis&#43;and&#43;Reinforcement&#43;Learning&#43;for&#43;Discounted&#43;LTL" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Policy%20Synthesis%20and%20Reinforcement%20Learning%20for%20Discounted%20LTL&amp;body=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F&amp;title=Policy&#43;Synthesis&#43;and&#43;Reinforcement&#43;Learning&#43;for&#43;Discounted&#43;LTL" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Policy&#43;Synthesis&#43;and&#43;Reinforcement&#43;Learning&#43;for&#43;Discounted&#43;LTL%20https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fkeyshor.github.io%2Fpublication%2Falur-policy-2023%2F&amp;title=Policy&#43;Synthesis&#43;and&#43;Reinforcement&#43;Learning&#43;for&#43;Discounted&#43;LTL" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://keyshor.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu2c4f817cc21d8046b83012756c93d4e5_135846_270x270_fill_q75_lanczos_center.jpg" alt="Kishor Jothimurugan"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://keyshor.github.io/">Kishor Jothimurugan</a></h5>
+      <h6 class="card-subtitle">Doctoral Candidate</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/KeysShore" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=ZFL3XX0AAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/keyshor" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/kishor-jothimurugan/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
 
   
 
-  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
 </div>
   </div>
 

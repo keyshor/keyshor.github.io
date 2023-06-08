@@ -5,7 +5,7 @@
     <link>https://keyshor.github.io/publication-type/1/</link>
       <atom:link href="https://keyshor.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
@@ -13,21 +13,27 @@
     </image>
     
     <item>
+      <title>Robust Subtask Leaning for Compositional Generalization</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-robust-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-robust-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Synthesis and Reinforcement Learning for Discounted LTL</title>
+      <link>https://keyshor.github.io/publication/alur-policy-2023/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/alur-policy-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Specification-Guided Learning of Nash Equilibria with High Social Welfare</title>
       <link>https://keyshor.github.io/publication/jothimurugan-specification-guided-2022/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://keyshor.github.io/publication/jothimurugan-specification-guided-2022/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Subtask Learning for Compositional Generalization</title>
-      <link>https://keyshor.github.io/preprints/rosac/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://keyshor.github.io/preprints/rosac/</guid>
-      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Compositional reinforcement learning is a promising approach for training policies to perform complex long-horizon tasks. Typically, a high-level task is decomposed into a sequence of subtasks and a separate policy is trained to perform each subtask. In this paper, we focus on the problem of training subtask policies in a way that they can be used to perform any task; here, a task is given by a sequence of subtasks. We aim to maximize the worst-case performance over all tasks as opposed to the average-case performance. We formulate the problem as a two agent zero-sum game in which the adversary picks the sequence of subtasks. We propose two RL algorithms to solve this game: one is an adaptation of existing multi-agent RL algorithms to our setting and the other is an asynchronous version which enables parallel training of subtask policies. We evaluate our approach on two multi-task environments with continuous states and actions and demonstrate that our algorithms outperform state-of-the-art baselines.&lt;/p&gt;
-</description>
     </item>
     
     <item>
