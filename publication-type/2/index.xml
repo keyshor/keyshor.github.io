@@ -5,12 +5,20 @@
     <link>https://keyshor.github.io/publication-type/2/</link>
       <atom:link href="https://keyshor.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://keyshor.github.io/media/icon_hua548646eb0ef2068e315ad4f7b192ca6_20428_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://keyshor.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Specification-Guided Reinforcement Learning</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-specification-2026/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-specification-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Framework for Transforming Specifications in Reinforcement Learning</title>

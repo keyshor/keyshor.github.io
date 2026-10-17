@@ -34,6 +34,14 @@
     
     <item>
       <title>Specification-Guided Reinforcement Learning</title>
+      <link>https://keyshor.github.io/publication/jothimurugan-specification-2026/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://keyshor.github.io/publication/jothimurugan-specification-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specification-Guided Reinforcement Learning</title>
       <link>https://keyshor.github.io/publication/jothimurugan-specification-2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://keyshor.github.io/publication/jothimurugan-specification-2025/</guid>
@@ -207,7 +215,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-354861972&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-691574832&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -217,7 +225,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-354861972&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-691574832&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
